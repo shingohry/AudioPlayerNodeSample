@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C94966321A84AD36004D5305 /* FilePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94966311A84AD36004D5305 /* FilePlayerViewController.m */; };
+		C94966351A84AD51004D5305 /* BufferPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94966341A84AD51004D5305 /* BufferPlayerViewController.m */; };
+		C94966391A84DB98004D5305 /* loop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C94966381A84DB98004D5305 /* loop.m4a */; };
 		C9B3A50D1A542551003AFAB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B3A50C1A542551003AFAB5 /* main.m */; };
 		C9B3A5101A542551003AFAB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B3A50F1A542551003AFAB5 /* AppDelegate.m */; };
 		C9B3A5131A542551003AFAB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B3A5121A542551003AFAB5 /* ViewController.m */; };
@@ -14,7 +17,6 @@
 		C9B3A5181A542551003AFAB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B3A5171A542551003AFAB5 /* Images.xcassets */; };
 		C9B3A51B1A542551003AFAB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B3A5191A542551003AFAB5 /* LaunchScreen.xib */; };
 		C9B3A5271A542552003AFAB5 /* AVAudioPlayerNodeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B3A5261A542552003AFAB5 /* AVAudioPlayerNodeSampleTests.m */; };
-		C9B3A5311A542599003AFAB5 /* loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = C9B3A5301A542599003AFAB5 /* loop.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C94966301A84AD36004D5305 /* FilePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePlayerViewController.h; sourceTree = "<group>"; };
+		C94966311A84AD36004D5305 /* FilePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilePlayerViewController.m; sourceTree = "<group>"; };
+		C94966331A84AD51004D5305 /* BufferPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferPlayerViewController.h; sourceTree = "<group>"; };
+		C94966341A84AD51004D5305 /* BufferPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferPlayerViewController.m; sourceTree = "<group>"; };
+		C94966381A84DB98004D5305 /* loop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = loop.m4a; sourceTree = "<group>"; };
 		C9B3A5071A542551003AFAB5 /* AVAudioPlayerNodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioPlayerNodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B3A50B1A542551003AFAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9B3A50C1A542551003AFAB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,7 +48,6 @@
 		C9B3A5201A542551003AFAB5 /* AVAudioPlayerNodeSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioPlayerNodeSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B3A5251A542552003AFAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9B3A5261A542552003AFAB5 /* AVAudioPlayerNodeSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerNodeSampleTests.m; sourceTree = "<group>"; };
-		C9B3A5301A542599003AFAB5 /* loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = loop.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +89,15 @@
 		C9B3A5091A542551003AFAB5 /* AVAudioPlayerNodeSample */ = {
 			isa = PBXGroup;
 			children = (
-				C9B3A5301A542599003AFAB5 /* loop.aif */,
+				C94966381A84DB98004D5305 /* loop.m4a */,
 				C9B3A50E1A542551003AFAB5 /* AppDelegate.h */,
 				C9B3A50F1A542551003AFAB5 /* AppDelegate.m */,
 				C9B3A5111A542551003AFAB5 /* ViewController.h */,
 				C9B3A5121A542551003AFAB5 /* ViewController.m */,
+				C94966301A84AD36004D5305 /* FilePlayerViewController.h */,
+				C94966311A84AD36004D5305 /* FilePlayerViewController.m */,
+				C94966331A84AD51004D5305 /* BufferPlayerViewController.h */,
+				C94966341A84AD51004D5305 /* BufferPlayerViewController.m */,
 				C9B3A5141A542551003AFAB5 /* Main.storyboard */,
 				C9B3A5171A542551003AFAB5 /* Images.xcassets */,
 				C9B3A5191A542551003AFAB5 /* LaunchScreen.xib */,
@@ -202,9 +212,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B3A5311A542599003AFAB5 /* loop.aif in Resources */,
 				C9B3A5161A542551003AFAB5 /* Main.storyboard in Resources */,
 				C9B3A51B1A542551003AFAB5 /* LaunchScreen.xib in Resources */,
+				C94966391A84DB98004D5305 /* loop.m4a in Resources */,
 				C9B3A5181A542551003AFAB5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B3A5131A542551003AFAB5 /* ViewController.m in Sources */,
+				C94966321A84AD36004D5305 /* FilePlayerViewController.m in Sources */,
+				C94966351A84AD51004D5305 /* BufferPlayerViewController.m in Sources */,
 				C9B3A5101A542551003AFAB5 /* AppDelegate.m in Sources */,
 				C9B3A50D1A542551003AFAB5 /* main.m in Sources */,
 			);
@@ -416,6 +428,7 @@
 				C9B3A52C1A542552003AFAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9B3A52D1A542552003AFAB5 /* Build configuration list for PBXNativeTarget "AVAudioPlayerNodeSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				C9B3A52F1A542552003AFAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
