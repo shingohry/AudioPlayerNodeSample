@@ -78,9 +78,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="File Player" id="7bG-by-lYV"/>
-                    <connections>
-                        <outlet property="playButton" destination="f6a-Uz-avw" id="kcF-EN-wmp"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8d5-1G-F4D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -190,7 +187,6 @@
                     <navigationItem key="navigationItem" title="Buffer Player" id="Aer-c5-ybi"/>
                     <connections>
                         <outlet property="loopSwitch" destination="EUe-8x-vzK" id="NUR-hu-Iga"/>
-                        <outlet property="playButton" destination="931-1f-zVd" id="lh2-nb-aCr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
