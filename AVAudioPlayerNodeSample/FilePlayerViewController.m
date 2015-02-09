@@ -74,7 +74,7 @@
 - (IBAction)didChangeVolumeSliderValue:(id)sender
 {
     float value = ((UISlider *)sender).value;
-    [self.engine mainMixerNode].outputVolume = value;
+    self.audioPlayerNode.volume = value;
 }
 
 - (IBAction)didChangePanSliderValue:(id)sender

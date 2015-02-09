@@ -82,17 +82,15 @@
 {
     if (self.audioPlayerNode.isPlaying) {
         [self.audioPlayerNode stop];
-        self.loopSwitch.enabled = YES;
     } else {
         [self play];
-        self.loopSwitch.enabled = NO;
     }
 }
 
 - (IBAction)didChangeVolumeSliderValue:(id)sender
 {
     float value = ((UISlider *)sender).value;
-    [self.engine mainMixerNode].outputVolume = value;
+    self.audioPlayerNode.volume = value;
 }
 
 - (IBAction)didChangePanSliderValue:(id)sender
